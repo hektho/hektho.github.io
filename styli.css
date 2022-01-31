@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.align {
+    text-align: left;
+}
+.centralizar {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgba(224, 224, 224, 0.507);
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid rgba(175, 175, 175, 0.452);
+
+}
+img#foto {
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.foto-borda {
+    padding: 20px;
+}
+.menu {
+    display: inline-block;
+}
+div.foto {
+    padding-right: 200px;
+
+}
+
+div.hab {
+    padding-right: 200px;
+}
+
+div.eu {
+    padding-right: 200px;
+}
+div.menu p {
+    background-color: rgba(129, 255, 112, 0.63);
+    padding: 5px;
+    border-radius: 5px;
+    border:2px solid rgba(129, 255, 112, 0.63);
+    
+}
+div.menu > p:hover {
+background-color: white;
+}

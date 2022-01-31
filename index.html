@@ -6,56 +6,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heitor da Costa Cândido</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    
-    
+    <link rel="stylesheet" type="text/css" href="styli.css">
+
+
 </head>
 
 <body>
-    <h4 id="sum">Sumário</h4>
-    <ul>
-        <li><a href="#foto">Foto</a></li>
-        <li><a href="#eu">Sobre mim</a></li>
-        <li><a href="#redes">Redes Sociais</a></li>
-        <li><a href="#hab">Habilidades</a></li>
-    </ul>
+    <a href="#foto">
+        <div class="menu foto">
+            <p>Foto</p>
+        </div>
+    </a>
+    <a href="#desenvolvimento">
+        <div class="menu hab">
+            <p>Habilidades</p>
+        </div>
+    </a>
+    <a href="#descricao">
+        <div class="menu eu">
+            <p>Sobre mim</p>
+        </div>
+    </a>
+    <a href="#redes">
+        <div class="menu contact">
+            <p>Contato</p>
+        </div>
+    </a>
+
+
     <h1>Heitor da Costa Cândido</h1>
 
-    <p id="foto"><img src="/imagens/foto-perfil.jpg"
-            alt="Foto apenas do rosto, um homem de cabelos escuros, jovem, branco e usa óculos." width="180"> </p>
-    <h2 id="eu">Um pouco sobre mim</h2>
+    <hr>
 
-    <p id="paragrafo"><em>Olá, mundo!</em> Meu nome é <strong>Heitor</strong>, tenho 21 anos, sou brasileiro e moro em
-        Santa Catarina. Curto muito a
-        área da
-        tecnologia especialmente a de programação! <strong>Atualmente sou estudante de <a
-                href="https://www.betrybe.com/" target="_blank">Desenvolvimento Web da
-                Trybe</a> e pretendo trabalhar nesta área no futuro.</strong></p>
+    <div class="foto-borda"><img id="foto" src="imagens/foto-perfil.jpg"
+            alt="Foto apenas do rosto, um homem de cabelos escuros, jovem, branco e usa óculos." width="180"></div>
 
-    <h4>Redes Sociais</h4>
-    <ul id="redes">
-        <li><a href="https://www.linkedin.com/in/heitor-candido/" target="_blank">Linkedin</a></li>
-        <li><a href="https://github.com/hektho" target="_blank">Github</a></li>
-    </ul>
 
-    <h4 id="hab">Habilidades que mais me orgulho</h4>
-    <ul>
-        <li>Empatia</li>
-        <li>Comprometimento</li>
-        <li>Organização</li>
-    </ul>
-    <h4>Outras habilidades</h4>
-    <ul>
-        <li>Git</li>
-        <li>Bash</li>
-    </ul>
-    <h4>Habilidades em Desenvolvimento</h4>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ul>
+    <div class="centralizar">
+        <p id="descricao"><em>Olá, mundo!</em> Meu nome é <strong>Heitor</strong>, tenho 21 anos, sou brasileiro e
+            moro em
+            Santa Catarina. Curto muito a
+            área da
+            tecnologia especialmente a de programação! <strong>Atualmente sou estudante de <a
+                    href="https://www.betrybe.com/" target="_blank">Desenvolvimento Web da
+                    Trybe</a> e pretendo trabalhar nesta área no futuro.</strong></p>
+    </div>
+    <hr>
 
+    <div class="align">
+        <h4 id="redes">Redes Sociais</h4>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/heitor-candido/" target="_blank">Linkedin</a></li>
+            <li><a href="https://github.com/hektho" target="_blank">Github</a></li>
+        </ul>
+    </div>
+
+
+    <div class="align">
+        <h4>Habilidades que mais me orgulho</h4>
+        <ul>
+            <li>Empatia</li>
+            <li>Comprometimento</li>
+            <li>Organização</li>
+        </ul>
+    </div>
+
+
+    <div class="align">
+        <h4>Outras habilidades</h4>
+        <ul>
+            <li>Git</li>
+            <li>Bash</li>
+        </ul>
+    </div>
+
+    <div class="align" id="desenvolvimento">
+        <h4>Habilidades em Desenvolvimento</h4>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </div>
 </body>
 
 </html>
