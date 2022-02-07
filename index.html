@@ -12,82 +12,59 @@
 </head>
 
 <body>
-    <a href="#foto">
-        <div class="menu foto">
-            <p>Foto</p>
-        </div>
-    </a>
-    <a href="#desenvolvimento">
-        <div class="menu hab">
-            <p>Habilidades</p>
-        </div>
-    </a>
-    <a href="#descricao">
-        <div class="menu eu">
-            <p>Sobre mim</p>
-        </div>
-    </a>
-    <a href="#redes">
-        <div class="menu contact">
-            <p>Contato</p>
-        </div>
-    </a>
+    <header>
+        <h1>Heitor da Costa Cândido</h1>
+        <nav>
+            <a href="#">Sobre mim</a>
+            <a href="#">Habilidades</a>
+            <a href="#">Contato</a>
+            
+        </nav>
+    </header>
+    <main>
+        <article>
+            <section id="descricao">
+            
+                <img id="foto" src="imagens/foto-perfil.jpg"
+                alt="Foto apenas do rosto, um homem de cabelos escuros, jovem, branco e usa óculos." width="180">
 
+                <p><em>Olá, mundo!</em> Meu nome é <strong>Heitor</strong>, tenho 21 anos, sou brasileiro e
+                moro em Santa Catarina. Curto muito a área da tecnologia especialmente a de programação! <strong>Atualmente sou estudante de <a href="https://betrybe.com" target="_blank">Desenvolvimento
+                Web da Trybe</a> e pretendo trabalhar nesta área no futuro</p>
+            </section>
 
-    <h1>Heitor da Costa Cândido</h1>
-
-    <hr>
-
-    <div class="foto-borda"><img id="foto" src="imagens/foto-perfil.jpg"
-            alt="Foto apenas do rosto, um homem de cabelos escuros, jovem, branco e usa óculos." width="180"></div>
-
-
-    <div class="centralizar">
-        <p id="descricao"><em>Olá, mundo!</em> Meu nome é <strong>Heitor</strong>, tenho 21 anos, sou brasileiro e
-            moro em
-            Santa Catarina. Curto muito a
-            área da
-            tecnologia especialmente a de programação! <strong>Atualmente sou estudante de <a
-                    href="https://www.betrybe.com/" target="_blank">Desenvolvimento Web da
-                    Trybe</a> e pretendo trabalhar nesta área no futuro.</strong></p>
-    </div>
-    <hr>
-
-    <div class="align">
-        <h4 id="redes">Redes Sociais</h4>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/heitor-candido/" target="_blank">Linkedin</a></li>
-            <li><a href="https://github.com/hektho" target="_blank">Github</a></li>
-        </ul>
-    </div>
-
-
-    <div class="align">
-        <h4>Habilidades que mais me orgulho</h4>
-        <ul>
-            <li>Empatia</li>
-            <li>Comprometimento</li>
-            <li>Organização</li>
-        </ul>
-    </div>
-
-
-    <div class="align">
-        <h4>Outras habilidades</h4>
-        <ul>
-            <li>Git</li>
-            <li>Bash</li>
-        </ul>
-    </div>
-
-    <div class="align" id="desenvolvimento">
-        <h4>Habilidades em Desenvolvimento</h4>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
-    </div>
+        <section>
+            <table>
+                <tr class="cinza principal">
+                    <td>
+                        Habilidades aprendidas
+                    </td>
+                    <td>
+                        Habilidade que orgulho
+                    </td>
+                    <td>
+                        Habilidades em Desenvolvimento
+                    </td>
+                </tr>
+                <tr class="claro">
+                    <td>Git e Github</td>
+                    <td>Empatia</td>
+                    <td>JavaScript</td>
+                </tr>
+                <tr class="cinza">
+                    <td>Conteúdos introdutórios do CSS e HTML</td>
+                    <td>Colaboração</td>
+                    <td>CSS</td>
+                </tr>
+                <tr class="claro">
+                    <td>Conteúdos introdutórios do JavaScript</td>
+                    <td>Organização</td>
+                    <td>HTML</td>
+                </tr>
+            </table>
+        </section>
+    </article>
+    </main>
 </body>
 
 </html>

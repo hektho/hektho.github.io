@@ -1,48 +1,71 @@
 body{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.align {
-    text-align: left;
-}
-.centralizar {
-    margin-left: 200px;
-    margin-right: 200px;
-    background-color: rgba(224, 224, 224, 0.507);
-    border-radius: 10px;
-    padding: 5px;
-    border: 1px solid rgba(175, 175, 175, 0.452);
-
-}
-img#foto {
-    border-radius: 50px;
-    border: 2px solid rgb(0, 0, 0);
-}
-.foto-borda {
-    padding: 20px;
-}
-.menu {
-    display: inline-block;
-}
-div.foto {
-    padding-right: 200px;
-
+    font-family: sans-serif;
+    background-color: rgb(209, 209, 209);
 }
 
-div.hab {
-    padding-right: 200px;
+
+header {
+    background-color: white;
+    padding: 10px;
 }
 
-div.eu {
-    padding-right: 200px;
+h1 {
+    font-size: 35px;
+    font-family: sans-serif;
 }
-div.menu p {
-    background-color: rgba(129, 255, 112, 0.63);
-    padding: 5px;
+a{
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 18px;
+    color: black;
+}
+
+a:hover{
+    background-color: rgb(201, 201, 201);
     border-radius: 5px;
-    border:2px solid rgba(129, 255, 112, 0.63);
+    padding: 5px;
+    font-weight: 700;
+}
+
+#foto {
+    margin-top: 10px;
+    display: inline-block;
+    margin: auto;
+}
+
+ p {
+    display: inline-block;
+    width: 700px;
+    line-height: 25px;
+    font-size: large;
+    text-align: justify;
+    margin: auto;
+    margin-left: 100px;
+}
+
+#descricao{
+    text-align: center;
+}
+td{
+    width: 200px;
+    line-height: 20px;
+    padding: 5px;
     
 }
-div.menu > p:hover {
-background-color: white;
+ table {
+     margin: auto;
+     border: 1px double black;
+     padding: 10px;
+     background-color: white;
+     margin-top: 100px;
+ }
+ .cinza {
+     background-color: rgb(184, 184, 184);
+ }
+ .principal {
+     font-size: larger;
+     font-weight: bolder;
+ }
+.claro{
+    background-color: rgb(223, 223, 223);
 }
